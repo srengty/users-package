@@ -3,7 +3,6 @@
     "description": "Package for CRUD users, roles, and permissions",
     "type": "project",
     "require": {
-        "inertiajs/inertia-laravel": "1.x-dev",
         "illuminate/support": "*"
     },
     "license": "MIT",
