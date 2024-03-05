@@ -9,7 +9,7 @@ class Facade extends FacadesFacade
     {
         return \Ftsda3\UsersPackage\UsersPackage::class;
     }
-    public function greeting(){
+    public static function greeting(){
         return "Hello from Users package.";
     }
 }
