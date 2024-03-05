@@ -1,0 +1,32 @@
+{
+    "name": "ftsda3/users-package",
+    "description": "Package for CRUD users, roles, and permissions",
+    "type": "project",
+    "require": {
+        "inertiajs/inertia-laravel": "1.x-dev",
+        "illuminate/support": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ftsda3\\UsersPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "srengty",
+            "email": "srengty@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Ftsda3\\UsersPackage\\UsersPackageServiceProvider"
+            ],
+            "alias": {
+                "UsersPackage": "Ftsda3\\UsersPackage\\Facade"
+            }
+        }
+    }
+}
